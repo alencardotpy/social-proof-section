@@ -1,0 +1,37 @@
+/*# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+*/
+:root{
+--MobileWidth: 375px;
+--DesktopWidth: 1440px;
+/*
+## Colors
+
+### Primary
+*/
+--VeryDarkMagenta: hsl(300, 43%, 22%);
+--SoftPink: hsl(333, 80%, 67%);
+/*
+### Neutral
+*/
+--DarkGrayishMagenta: hsl(303, 10%, 53%);
+--LightGrayishMagenta: hsl(300, 24%, 96%);
+--White: hsl(0, 0%, 100%);
+/*
+## Typography
+
+### Body Copy
+*/
+--FontSize: 15px;
+/*
+### Font
+*/
+--FontFamily: 'League Spartan', sans-serif;
+--FontWeightSmall: 400;
+--FontWeightMedium: 400, 500, 700;
+--FontWeightLarge:700;
+
+}
