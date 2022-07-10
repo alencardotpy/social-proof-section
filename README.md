@@ -22,7 +22,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub repo](https://github.com/alencardotpy/social-proof-section)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages](https://alencardotpy.github.io/social-proof-section/)
 
 ## My process
 
