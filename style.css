@@ -35,9 +35,6 @@ The designs were created to the following widths:
 --FontWeightLarge:700;
 
 }
-*{
-    /*border:1px dashed gray;*/
-}
 
 .body{
     width:100vw;
@@ -47,9 +44,10 @@ The designs were created to the following widths:
     background-image: 
      url("./images/bg-pattern-top-mobile.svg"),
      url("./images/bg-pattern-bottom-mobile.svg");
-    background-position: right 0 top 0,
+    background-position: right 30vw top 0,
                          right 0  top 100vh;
     background-repeat: no-repeat;
+    font-family: var(--FontFamily);
 
 }
 
@@ -192,4 +190,108 @@ width:340px;
 
 .attribution__link {
   color: hsl(228, 45%, 44%);
+}
+
+
+@media screen and (min-width:1010px) {
+    
+.body{
+    width:100vw;
+    padding:0;
+    height:auto;
+    margin:0 auto;
+    font-family: var(--FontFamily);
+    background-image: 
+     url("./images/bg-pattern-top-desktop.svg"),
+     url("./images/bg-pattern-bottom-desktop.svg");
+    background-position: right 50vw top 0px,
+                         right 0  top 20vh;
+    background-repeat: no-repeat;
+
+
+}
+
+.container{
+    width:auto;
+    max-width:1024px;
+    height:auto;
+    display:flex;
+    flex-wrap:wrap;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    overflow: hidden;
+    padding:50px 10px;
+
+}
+
+.container__header{
+    position: relative;
+    bottom:50px;
+    width:365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 0 auto;
+    padding:20px;
+}
+.container__title{
+    width:350px;
+    text-align: left;
+
+}
+.container__text{
+    text-align: left;
+}
+.container__rates-container{
+    width:550px;
+    position: relative;
+}
+
+.container__rate-container{
+    width:350px;
+    height:20px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin:20px 0;
+    padding:15px;
+
+    
+
+}
+.container__rates-container .container__rate-container:nth-child(1){
+    position: relative;
+    left:20px;
+    
+}
+.container__rates-container .container__rate-container:nth-child(2){
+    position: relative;
+    left:50px;
+    
+}
+.container__rates-container .container__rate-container:nth-child(3){
+    position: relative;
+    left:80px;
+    
+}
+
+.container .container__card:nth-child(4){
+    position: relative;
+    top:20px;
+
+}
+.container .container__card:nth-child(5){
+    position: relative;
+    top:40px;
+}
+.container__card{
+    width:250px;
+    margin:10px 10px;
+    border-radius:10px;
+}
+
 }
