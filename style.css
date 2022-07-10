@@ -38,6 +38,7 @@ The designs were created to the following widths:
 *{
     /*border:1px dashed gray;*/
 }
+
 .body{
     width:100vw;
     padding:0;
@@ -63,6 +64,7 @@ The designs were created to the following widths:
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 .container__title{
@@ -140,7 +142,7 @@ The designs were created to the following widths:
     width:100%;
     gap:5px;
 
-    }
+}
 
 .container__card-username{
     margin:0;
@@ -181,6 +183,7 @@ width:340px;
   align-self: center;
   font-family: var(--FontFamily);
 }
+
 .attribution__link {
   color: hsl(228, 45%, 44%);
 }
