@@ -42,6 +42,7 @@ The designs were created to the following widths:
     width:100vw;
     padding:0;
     margin:0 auto;
+    font-family: var(--FontFamily);
 
 }
 
@@ -151,8 +152,8 @@ The designs were created to the following widths:
 }
 
 .container__card-quote{
-    font-size: var(--FontSize);
-    width:280px;
+
+    width:260px;
     line-height: 25px;
 }
 
@@ -170,14 +171,15 @@ The designs were created to the following widths:
 
 .attribution {
 width:340px;
-  font-size: 15px;
+  font-size: 11px;
   text-align: center;
   display:flex;
   align-items: center;
   justify-content: center;
-  gap:3px;
+  gap:1px;
   margin:10px auto;
   align-self: center;
+  font-family: var(--FontFamily);
 }
 .attribution__link {
   color: hsl(228, 45%, 44%);
