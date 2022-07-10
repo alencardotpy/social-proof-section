@@ -35,26 +35,33 @@ The designs were created to the following widths:
 --FontWeightLarge:700;
 
 }
-
+*{
+    /*border:1px dashed gray;*/
+}
 .body{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height:100vh;
-    height:auto;
-    font-family: var(--FontFamily);
-    margin:0;
-
+    width:100vw;
+    padding:0;
+    margin:0 auto;
 
 }
 
 .container{
+    width:370px;
     display:flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin:0 auto;
+    overflow: hidden;
 
+}
+
+.container__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container__title{
@@ -100,7 +107,7 @@ The designs were created to the following widths:
     background:var(--VeryDarkMagenta);
     border-radius:10px;
     padding:30px;
-    height:200px;
+    height:230px;
     margin:10px 0;
     display: flex;
     flex-direction: column;
@@ -144,7 +151,8 @@ The designs were created to the following widths:
 }
 
 .container__card-quote{
-    width:250px;
+    font-size: var(--FontSize);
+    width:280px;
     line-height: 25px;
 }
 
@@ -160,6 +168,17 @@ The designs were created to the following widths:
     color:var(--VeryDarkMagenta);
 }
 
-.star-container__image{
-
+.attribution {
+width:340px;
+  font-size: 15px;
+  text-align: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap:3px;
+  margin:10px auto;
+  align-self: center;
+}
+.attribution__link {
+  color: hsl(228, 45%, 44%);
 }
